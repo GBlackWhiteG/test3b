@@ -1,0 +1,38 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    border-radius: 10px;
+    border: solid 1px #000000;
+    padding: 20px;
+}
+
+.wrapper__contacts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.contact {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+    padding: 20px;
+    transition: .2s;
+}
+
+.contact:hover {
+    transform: translateY(-5px);
+}
